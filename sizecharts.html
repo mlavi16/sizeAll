@@ -18,81 +18,76 @@
         <nav id="menu" class="black">
             <div class="logo"><a href="index.html"><img src="images/logo5-cutout.png" style="height:100px"></a></div>
             <ul>
-              <li><a href="index.html">HomePage</a></li> 
-              <li><a href="aboutus.html">About Us</a></li> 
+              <li><a href="index.html">HomePage</a></li>
+              <li><a href="findyoursize.html">Find your Size </a></li>
               <li class="active"><a href="sizecharts.html">Size Charts </a></li> 
               <li><a href="storesincluded.html">Stores Included </a></li> 
-              <li><a href="findyoursize.html">Find your Size </a></li>
+              <li><a href="aboutus.html">About Us</a></li>
             </ul>
           </nav>
+          </header>
           <div id="white">
           <section id="white">
               <br>
               <br>
               <br>
-            
-            <h2 style="text-align:center">Sizing Charts</h2>
-
+              <!-- <h1>Click the selected stores to see their size guide!</h1>
+            <div id="stores">
+    <p>Pacsun</p>
+    <p>Marshalls</p>
+    <p>Sears</p>
+    <p>Uniqlo</p>
+    <p>Gap</p>
+    <p>Old Navy</p>
+    <p>Forever 21</p>
+    <p>American Eagle</p>
+    <p>H&M</p>
+    <p>Charlotte Russe</p>
+    <p>Guess</p>
+    <p>Urban Outfitters</p>
+    <p>Zara</p>
+    <p>Aqua</p>
+    <p>Dressbarn</p>
+    <p>Macy's</p>
+  </section> -->
+  <!-- </div> -->
+  <div id="wrapper">
+      <div id="three-column" class="container">
+        <div class="title">
+          <h2>Click the selected stores to see their size guide!</h2>
+          <span class="byline"></span>
+        </div>
+        <div class="boxA">
+          <span></span>
+          <img src="store logos/americaneagle.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/charlotte.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/dressbarn.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/forever21.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/gap.png" alt="Trulli" width="300" height="300">
           
-            <div class="slideshow-container">
-              <div class="mySlides1">
-                <img src="images/logo.png" style="width:100%">
-              </div>
-            
-              <div class="mySlides1">
-                <img src="images/logo2-cutout.png" style="width:100%">
-              </div>
-            
-              <div class="mySlides1">
-                <img src="images/logo2.png" style="width:100%">
-              </div>
-            
-              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-            </div>
-            
-            <p>Slideshow 2:</p>
-            <div class="slideshow-container">
-              <div class="mySlides2">
-                <img src="images/logo3-cutout.png" style="width:100%">
-              </div>
-            
-              <div class="mySlides2">
-                <img src="images/logo3.png" style="width:100%">
-              </div>
-            
-              <div class="mySlides2">
-                <img src="images/logo4.png" style="width:100%">
-              </div>
-            
-              <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-            </div>
-         </section>
-         </div>
-
-         <script>
-
-            var slideIndex = [1,1];
-            var slideId = ["mySlides1", "mySlides2"]
-            showSlides(1, 0);
-            showSlides(1, 1);
-            
-            function plusSlides(n, no) {
-              showSlides(slideIndex[no] += n, no);
-            }
-            
-            function showSlides(n, no) {
-              var i;
-              var x = document.getElementsByClassName(slideId[no]);
-              if (n > x.length) {slideIndex[no] = 1}    
-              if (n < 1) {slideIndex[no] = x.length}
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";  
-              }
-              x[slideIndex[no]-1].style.display = "block";  
-            }
-         </script>
+        </div>
+        <div class="boxB">
+          <span></span>
+          <img src="store logos/guess.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/hm.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/macy's.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/marshalls.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/oldnavy.png" alt="Trulli" width="300" height="300">
+          
+        </div>
+        <div class="boxC">
+          <span></span>
+          <img src="store logos/pacsunlogo.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/sears.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/uniqlo.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/urbanoutfitters.png" alt="Trulli" width="300" height="300">
+          <img src="store logos/zara.png" alt="Trulli" width="300" height="300">
+        </div>
+      </div>
+    </div>
+    </section>
+  
+  
          
          <footer class="footer-distributed">
 

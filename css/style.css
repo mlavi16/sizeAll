@@ -9,7 +9,7 @@ body {
 }
 
 a:link, a:visited {
-  color: white;
+  color: black;
 }
 a:hover {
   background-color: gray;
@@ -242,7 +242,7 @@ section #widget .box {
 	text-align: start;
 	text-indent: 0px;
 	text-transform: none;
-	vertical-align: baseline;
+	
 	white-space: normal;
 	word-spacing: 0px;
 
@@ -380,9 +380,9 @@ section #widget .box {
 		color: rgba(255,255,255,1);
   }
   
-  li {
+  /* li {
     /* padding: 10px; */
-  }
+  
 
   #menu li a, #menu li span
 	{
@@ -408,9 +408,9 @@ section #widget .box {
 		text-align: center;
   }
 
-  #menu li:hover a, #menu li.active a, #menu li.active span
+  /* #menu li:hover a, #menu li.active a, #menu li.active span
 	{
-  }
+  } */
   
   .black{
     background-color: black;
@@ -480,11 +480,12 @@ img {vertical-align: middle;}
   background-color: #f1f1f1;
   color: black;
  
- nav
-{
+ nav{
    position: fixed;
-   top: 0px;
-}
+   top: 1px;
+ }
+   
+
 
 .plsMoveDown {
   margin-top: 120px;
@@ -502,3 +503,128 @@ img {vertical-align: middle;}
   color: lightgray;
   background-color: transparent;
   }
+
+p{
+  color:black;
+}
+
+.storesincluded {
+  margin-top: 100px;
+ 
+ }
+ 
+ .findsize {
+  margin-top: 100px;
+ }
+ 
+ 
+ input.MyButton {
+ width: 300px;
+ padding: 20px;
+ cursor: pointer;
+ font-weight: bold;
+ font-size: 150%;
+ background: #3366cc;
+ color: #fff;
+ border: 1px solid #3366cc;
+ border-radius: 10px;
+ }
+
+ input.MyButton:hover {
+ color: #ffff00;
+ background: #000;
+ border: 1px solid #fff;
+ }
+
+ #wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+    background: #FFF;
+  }
+
+  #three-column
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.6);
+	}
+
+	#three-column .fa
+	{
+		display: block;
+		padding: 1em 0em;
+		color: rgba(0,0,0,1);
+		font-size: 2em;
+	}
+	
+	#three-column .title h2
+	{
+		font-weight: bold;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#three-column .title .byline
+	{
+		text-align: center;
+		color: rgba(0,0,0,.5);
+  }
+  
+  #welcome .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
+  }
+  
+  .container{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+  }
+  
+  #three-column .title h2
+	{
+		font-weight: bold;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#three-column .title .byline
+	{
+		text-align: center;
+		color: rgba(0,0,0,.5);
+  }
+
+  .boxA,
+	.boxB,
+	.boxC
+	{
+		width: 384px;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+  }
+  
+}
+.centerpls{
+ line-height: 1.5;
+ text-align: center;
+}
+.bigPic{
+ max-height: 230px;
+ max-width: 230px;
+}
+th{
+ padding: 50px;
+}
+#linkedin{
+ font-weight: none;
+} 	} 
