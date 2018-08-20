@@ -438,3 +438,17 @@ section #widget .box {
   color: lightgray;
   background-color: transparent;
 }
+
+.centerpls{
+  line-height: 1.5;
+  text-align: center;
+}
+
+th{
+  padding: 50px;
+}
+
+.bigPic{
+  max-height: 300px;
+  max-width: 300px;
+}
