@@ -4,7 +4,6 @@
 body {
   margin: 0;
   padding: 0;
-  
   color: #333;
 }
 
@@ -502,6 +501,26 @@ img {vertical-align: middle;}
 .plsMoveDown a:hover{
   color: lightgray;
   background-color: transparent;
+}
+
+.centerpls{
+  line-height: 1.5;
+  text-align: center;
+}
+
+.bigPic{
+  max-height: 230px;
+  max-width: 230px;
+}
+
+th{
+  padding: 50px;
+}
+
+#linkedin{
+  font-weight: none;
+}
+
   }
 
 p{
@@ -614,17 +633,3 @@ p{
   }
   
 }
-.centerpls{
- line-height: 1.5;
- text-align: center;
-}
-.bigPic{
- max-height: 230px;
- max-width: 230px;
-}
-th{
- padding: 50px;
-}
-#linkedin{
- font-weight: none;
-} 	} 
