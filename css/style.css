@@ -479,7 +479,8 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
-  nav
+ 
+ nav
 {
    position: fixed;
    top: 0px;
@@ -500,4 +501,4 @@ img {vertical-align: middle;}
 .plsMoveDown a:hover{
   color: lightgray;
   background-color: transparent;
-}
+  }
