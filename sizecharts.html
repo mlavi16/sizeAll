@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Size-ALL | Size Charts</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8" />
         <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/fashion-flat-icons-vol-1/256/04-512.png">
         <link rel="stylesheet" href="css/style.css">
@@ -10,12 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">  
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <script src="js/index.js"></script>
+        <script src="js/java.js"></script>
     </head>
-    <body>
+    <body class="body2">
       <header>
         <nav id="menu" class="black">
             <div class="logo"><a href="index.html"><img src="images/logo5-cutout.png" style="height:100px"></a></div>
-           
             <ul>
               <li><a href="index.html">HomePage</a></li> 
               <li><a href="aboutus.html">About Us</a></li> 
@@ -24,7 +25,108 @@
               <li><a href="findyoursize.html">Find your Size </a></li>
             </ul>
           </nav>
+          <div id="white">
+          <section id="white">
+              <br>
+              <br>
+              <br>
+            
+            <h2 style="text-align:center">Sizing Charts</h2>
+
           
+            <div class="slideshow-container">
+              <div class="mySlides1">
+                <img src="images/logo.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides1">
+                <img src="images/logo2-cutout.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides1">
+                <img src="images/logo2.png" style="width:100%">
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+            
+            <p>Slideshow 2:</p>
+            <div class="slideshow-container">
+              <div class="mySlides2">
+                <img src="images/logo3-cutout.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides2">
+                <img src="images/logo3.png" style="width:100%">
+              </div>
+            
+              <div class="mySlides2">
+                <img src="images/logo4.png" style="width:100%">
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+            </div>
+         </section>
+         </div>
+
+         <script>
+
+            var slideIndex = [1,1];
+            var slideId = ["mySlides1", "mySlides2"]
+            showSlides(1, 0);
+            showSlides(1, 1);
+            
+            function plusSlides(n, no) {
+              showSlides(slideIndex[no] += n, no);
+            }
+            
+            function showSlides(n, no) {
+              var i;
+              var x = document.getElementsByClassName(slideId[no]);
+              if (n > x.length) {slideIndex[no] = 1}    
+              if (n < 1) {slideIndex[no] = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex[no]-1].style.display = "block";  
+            }
+         </script>
+         
+         <footer class="footer-distributed">
+
+          <div class="footer-right">
+    
+            
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            
+    
+          </div>
+    
+          <div class="footer-left">
+    
+            <p class="footer-links">
+              <a href="index.html">Home</a>
+              ·
+          
+              <a href="findyoursize.html">Find Your Size</a>
+              ·
+              <a href="aboutus.html">About Us</a>
+              ·
+              <a href="sizecharts.html">Size Charts</a>
+              ·
+              <a href="storesincluded.html">Stores Included</a>
+            </p>
+    
+            <p>Size-ALL &copy; 2018</p>
+          </div>
+    
+      </footer>   
+
+       
+
 
         
     </body>
