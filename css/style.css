@@ -8,6 +8,13 @@ body {
   color: #333;
 }
 
+a:link, a:visited {
+  color: white;
+}
+a:hover {
+  background-color: gray;
+}
+
 header {
   background: #111;
 }
@@ -136,10 +143,6 @@ section {
     opacity: 1;
   }
 }
-
-a:hover {
-background-color:grey;
-  }
 
 
 ul {
@@ -412,3 +415,26 @@ section #widget .box {
   .black{
     background-color: black;
   }
+
+  nav
+{
+   position: fixed;
+   top: 0px;
+}
+
+.plsMoveDown {
+  margin-top: 120px;
+  line-height: 1.0;
+
+}
+
+.plsMoveDown a{
+  text-decoration: none;
+}
+.plsMoveDown a:link, .plsMoveDown a:visited{
+  color: black;
+}
+.plsMoveDown a:hover{
+  color: lightgray;
+  background-color: transparent;
+}
