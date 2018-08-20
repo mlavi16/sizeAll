@@ -416,7 +416,6 @@ section #widget .box {
     background-color: black;
   }
 
-<<<<<<< HEAD
   a, button{
   color:white;
   }
@@ -480,7 +479,6 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: #f1f1f1;
   color: black;
-=======
   nav
 {
    position: fixed;
@@ -502,5 +500,4 @@ img {vertical-align: middle;}
 .plsMoveDown a:hover{
   color: lightgray;
   background-color: transparent;
->>>>>>> 151195cba66ddd9af04eb4557ab4ea6a70e50065
 }
