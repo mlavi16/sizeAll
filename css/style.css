@@ -7,10 +7,10 @@ body {
   color: #333;
 }
 
-.clickToBegin a:link, .clickToBegin a:visited {
+#clickToBegin a:link, #clickToBegin a:visited {
   color: white;
 }
-.clickToBegin a:hover {
+#clickToBegin a:hover {
   background-color: gray;
 }
 
