@@ -667,3 +667,15 @@ td {
   line-height: 1.5;
   text-align: center;
  }
+
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, tr, th{
+  margin-left: auto;
+  margin-right: auto;
+}
+
