@@ -133,6 +133,21 @@ section {
   padding: 20px;
   max-width: 800px;
   font-size: 1.2em;
+  /* line-height: 1.6em; */
+  box-sizing: border-box;
+}
+
+#aboutus2{
+  line-height: 1.6em;
+  text-align: center;
+}
+
+#home{
+  width: 100%;
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 800px;
+  font-size: 1.2em;
   line-height: 1.6em;
   box-sizing: border-box;
 }
@@ -167,7 +182,7 @@ ul {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: normal 16px sans-serif;
+  font: normal 16px sans-serif;
 
 	padding: 45px 50px;
 	margin-top: 80px;
@@ -675,4 +690,21 @@ td, tr, th{
 .centerpls{
   line-height: 1.5;
   text-align: center;
+ }
+
+
+ #button{
+   color: white;
+ }
+
+ .centerp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  
+ }
+
+ #fontsize{
+   font-size: 15px;
  }
