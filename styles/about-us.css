@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins');
 
-#about-us{display:block; width:100%; line-height:1.6em;}
+#about-us{display:block; width:100%; line-height:1.0em;}
 #about-us h2{margin-bottom:50px; padding-bottom:40px; font-size:50px; text-align:center; text-transform:uppercase; border-bottom:1px solid #CCCCCC;} /* DEMO USE ONLY - CAN BE DELETED */
 
 #about-us #about-intro{margin-bottom:50px;}
@@ -12,13 +12,14 @@
 #about-us #team ul li{margin-bottom:30px;}
 #about-us #team ul li figure{position:relative; text-align:center;}
 #about-us #team ul li figure img{padding:9px; border:1px solid #CCCCCC;}
+.downmar{margin-bottom: 150px; }
 #about-us #team ul li figure figcaption{display:none; position:absolute; top:10px; left:10px; width:280px; height:200px; overflow:hidden; color:#FFFFFF; background-color:#000000; background:hsla(0, 0%, 0%, 0.8);}
 #about-us #team ul li:hover figure figcaption{display:block;}
 #about-us #team ul li figure figcaption p{margin:11px 11px 0 11px; padding:0;}
 #about-us #team ul li figure figcaption p:first-child{margin-top:35px;}
 #about-us #team ul li figure figcaption .team_name{font-weight:bold;}
 #about-us #team ul li figure figcaption .team_title{margin:0; font-size:11px; line-height:normal;}
-#about-us #team ul li figure figcaption .team_description{text-align:left;}
+#about-us #team ul li figure figcaption .team_description{text-align:left; line-height: 0.5px;}
 
 .fadein { position:relative; width:500px; height:332px; }
 .fadein img { position:absolute; left:0; top:0; }
@@ -39,6 +40,91 @@
       }
 
       
-        
+
+      .f1{
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: normal 16px sans-serif;
+        position: fixed;
+        bottom:0;
+        left:0;
+        padding: 45px 50px;
+        margin-top: 80px;
+        height: 130px;
+    }
     
+    .f1 .f3 p{
+        color:  #8f9296;
+        font-size: 14px;
+        margin: 0;
+    }
     
+    /* Footer links */
+    
+    .f1 p.f4{
+        font-size:18px;
+        font-weight: bold;
+        color:  #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+    }
+    
+    .f1 p.f4 a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+    
+    .f1 .f2{
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+    }
+    
+    .f1 .f2 a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background-color:  #33383b;
+        border-radius: 2px;
+    
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+    
+        margin-left: 3px;
+    }
+    
+    /* If you don't want the footer to be responsive, remove these media queries */
+    
+    @media (max-width: 600px) {
+    
+        .f1 .f3,
+        .f1 .f2{
+            text-align: center;
+        }
+    
+        .f1 .f2{
+            float: none;
+            margin: 0 auto 20px;
+        }
+    
+        .f1 .f3 p.f4{
+            line-height: 1.8;
+        }
+    }
+
+
+.centerp{
+    margin: auto;
+    float: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
