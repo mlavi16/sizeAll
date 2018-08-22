@@ -643,11 +643,6 @@ th{
   max-width: 250px;
  }
 
-.centerpls{
-  line-height: 1.5;
-  text-align: center;
- }
-
 .center{
   display: block;
   margin-left: auto;
@@ -662,7 +657,6 @@ th{
   height:60px;
   left: 0;
 }
-
 
 td {
   padding-right: 20px;
