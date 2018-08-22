@@ -672,3 +672,7 @@ td, tr, th{
   margin-left: auto;
   margin-right: auto;
 }
+.centerpls{
+  line-height: 1.5;
+  text-align: center;
+ }
