@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins');
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Corben|Fugaz+One|Limelight|Lobster|Luckiest+Guy|Rammetto+One|Satisfy|Shrikhand|Squada+One');
 body {
   margin: 0;
@@ -691,7 +692,15 @@ td, tr, th{
   line-height: 1.5;
   text-align: center;
  }
+.centerprettypls{
+  text-align: center;
+  margin-bottom: 0px;
+}
 
+.centerprettypls2{
+  text-align: center;
+  margin-bottom:20px;
+}
 
  #button{
    color: white;
@@ -708,3 +717,17 @@ td, tr, th{
  #fontsize{
    font-size: 15px;
  }
+
+ .storesincludedtable{
+  border: 1px solid black;
+  
+}
+
+.stores{
+  font-family: 'Poppins';
+}
+
+.difFont{
+  font-size: 50px;
+  font-family:'Libre Baskerville';
+}
